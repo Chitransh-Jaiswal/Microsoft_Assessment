@@ -53,7 +53,7 @@ This Selenium IDE script automates the seamless retrieval of the latest PDF from
    - Open a terminal and navigate to the project directory.
    - Execute the following command to run the Selenium script:
      ```bash
-     > selenium-side-runner -c "browser=chrome" Daily_news_downloader.side
+     > selenium-side-runner -c "browserName=chrome" Daily_news_downloader.side
      ```
 
 3. **Note**:
