@@ -1,0 +1,195 @@
+{
+  "id": "535a65a6-69ed-4d8c-9290-5c443dca2fe3",
+  "version": "2.0",
+  "name": "004",
+  "url": "https://www.dailyepaper.in",
+  "tests": [{
+    "id": "aa59898f-1794-410e-9c7f-d2d6adc6d743",
+    "name": "001",
+    "commands": [{
+      "id": "d5328f92-b39e-4673-978f-69e945320ed5",
+      "comment": "",
+      "command": "open",
+      "target": "/daily-news/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63bf4310-6aa6-43bd-8c66-dcad48b07685",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "864x765",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63edaed0-1192-4395-9dc2-e218a967e84d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#wptb-table-id-43113 .wptb-row:nth-child(3) > .wptb-cell:nth-child(1) .wptb-button",
+      "targets": [
+        ["css=#wptb-table-id-43113 .wptb-row:nth-child(3) > .wptb-cell:nth-child(1) .wptb-button", "css:finder"],
+        ["xpath=//div[@id='wptb-table-id-43113']/table/tbody/tr[3]/td/div[2]/div/a/div", "xpath:idRelative"],
+        ["xpath=//tr[3]/td/div[2]/div/a/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7953",
+      "windowTimeout": 2000
+    }, {
+      "id": "5e443239-1c6f-4453-bbfc-efc591037818",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "528e5a98-7dca-42e2-b972-cd8f7ba578f7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7953}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efd7aab1-b15c-464e-bb38-402b37e72e61",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-38263 > a",
+      "targets": [
+        ["css=#menu-item-38263 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ncert Books')])[2]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-38263']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.dailyepaper.in/home/')])[3]", "xpath:href"],
+        ["xpath=//div[2]/nav/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4851cba5-4364-4797-8197-f130e8374bbd",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74c85c32-27ca-4b83-8720-52a9c3d0ca5c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46129590-15ab-477b-97b1-53e291ff5d32",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7953}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0299601-b293-49a2-bb96-7ed7d260182a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1366.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a2b0bbc-a81b-4d1a-861d-bf79db4efd2d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2808.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3eeb3e0e-5465-424c-a464-8b1c9e51c932",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3958.39990234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f94d887b-45da-4f76-9442-c4a310d8504d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download Now",
+      "targets": [
+        ["linkText=Download Now", "linkText"],
+        ["css=.entry-content > p:nth-child(36) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Download Now')]", "xpath:link"],
+        ["xpath=//article[@id='post-36926']/div/p[17]/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://drive.google.com/file/d/1wbJ5lPIh2sIoezBC53tzinoZukb3L3qW/view?usp=sharing')]", "xpath:href"],
+        ["xpath=//p[17]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download Now')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4524",
+      "windowTimeout": 2000
+    }, {
+      "id": "8610e8b4-a319-417b-ab66-285532430714",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4524}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fd58d0f-1ae4-4556-9faa-f0ed5ee02330",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7953}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "313918a3-a9ec-45a0-ae86-59169fa98219",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e346b97d-853f-4b77-8e0e-b358fea8552c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4524}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8877223-b2cf-40fe-9691-3fcdf8cca17d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "992x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19d69c14-4c0e-4a8d-87c9-0d0f4799820e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ndfHFb-c4YZDc-nupQLb-Bz112c",
+      "targets": [
+        ["css=.ndfHFb-c4YZDc-nupQLb-Bz112c", "css:finder"],
+        ["xpath=//div[3]/div[2]/div[2]/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "141bb70c-5c48-4cc9-9222-7eda6dca6c49",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4524}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "745cb253-af32-4c2b-b533-e20f26529f41",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "20117484-f6ab-4d03-922a-72fc9b5e317e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["aa59898f-1794-410e-9c7f-d2d6adc6d743"]
+  }],
+  "urls": ["https://www.dailyepaper.in/"],
+  "plugins": []
+}
